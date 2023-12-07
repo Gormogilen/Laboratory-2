@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="ua">
+<head>
+    <meta charset="utf-8" />
+    <title>Labaratory 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        div.head {
+            background: blue;
+        }
+        h3.head {
+            color: yellow;
+        }
+        p.head {
+            color: sandybrown;
+            font-size: 24px;
+            
+        }
+        b#identified {
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="background: white">Каскадні таблиці стилів</h1>
+    </header>
+    <nav>
+        <div class="field">
+            <ul>
+                <li><a href="#1">Приклад 1</a></li>
+                <li><a href="#2">Приклад 2</a></li>
+                <li><a href="#3">Приклад 3</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div>
+            <h3 style="color:azure">Приклад 1</h3>
+            <p style="font-size: 20px; color: lawngreen; font-family: arial">
+                Приклад підключення таблиці стилів через inline-опис.
+            </p>
+        </div>
+        <div class="head">
+            <h3 class="head">Приклад 2</h3>
+            <p class="head">
+                Приклад підключення таблиць стилів у секції заголовка. <b id="identified">Виділений жирним шрифтом текст помічений червоним.</b>
+            </p>
+        </div>
+        <div>
+            <h3 >Приклад 3</h3>
+            <p >
+                Підключення таблиці стилів через зовнішній файл. <b>У цьому розділ також будуть використані селектори тегів, класів та ідентифікаторів.</b>
+            </p>
+        <div>
+            <button>Натисни тут</button>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="https://dl.nure.ua/pluginfile.php/1/core_admin/logo/0x200/1699864778/LogoDE_new.png">
+        </div>
+    </footer>
+</body>
+</html>
